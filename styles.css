@@ -598,4 +598,22 @@ body {
   pointer-events: none;
 }
 
+/* Globos Atras */
+#canvas3 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  display: block;
+  pointer-events: none;
+  z-index: 1;
+}
 
+/* Globos Delante */
+#canvas4 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  display: block;
+  pointer-events: none;
+  z-index: 3;
+}
