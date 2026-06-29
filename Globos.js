@@ -24,7 +24,7 @@ const coloresGlobos = [
   "rgba(150, 200, 130, 1)",
   "rgba(255, 210, 140, 1)",
   "rgba(220, 245, 210, 1)",
-  "rgba(255, 255, 255, 1)",
+  "rgb(228, 231, 231)",
 ];
 
 function crearGlobos() {

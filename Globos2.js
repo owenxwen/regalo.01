@@ -24,13 +24,13 @@ const coloresGlobos2 = [
   "rgba(150, 200, 130, 1)",
   "rgba(255, 210, 140, 1)",
   "rgba(220, 245, 210, 1)",
-  "rgba(255, 255, 255, 1)",
+  "rgb(248, 231, 231)",
 ];
 
 function crearGlobos2() {
   const cantidad = 15;
   for (let i = 0; i < cantidad; i++) {
-    globos.push({
+    globos2.push({
       x: Math.random() * ancho4,
       y: Math.random() * alto4 + alto4,
       radioX: Math.random() * 15 + 20,
